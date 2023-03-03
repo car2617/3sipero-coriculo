@@ -1,0 +1,43 @@
+/* *{
+    outline: 1px dashed lightcoral;
+} */
+:root {
+    --primary-color: #BF1F3C;
+    --secondary-color:#402429 ;
+    --tertiary-color:#365959 ;
+    --quaternary-color: #F2DF7E;
+    --quinary-color:#F24535 ;
+    --ligth-color: white;
+    --dark-color: black;
+    --grayscale: #f2f2f2;
+
+    --extra-small-size: 4px;
+    --small-size: 8px;
+    --medium-size: 16px;
+    --large-size: 32px;
+    --extra-large-size: 64px;
+}
+.header{
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.header__title{
+    color: var(--ligth-color);
+}
+.header{
+    color: var(--ligth-color); 
+}
+.skills__column-left {
+    background: var(--quaternary-color);
+}
+
+.skills__title {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--ligth-color);
+}
+
+.skills__label {
+    font-size: 0.8rem;
+    color: var(--ligth-color);
+}
